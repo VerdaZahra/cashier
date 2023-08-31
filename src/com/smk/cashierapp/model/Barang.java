@@ -4,7 +4,7 @@ public class Barang extends Model{
     private String kodeBarang;
     private String namaBarang;
     private int hargaBarang;
-
+//barang
     public String getKodeBarang() {
         return kodeBarang;
     }

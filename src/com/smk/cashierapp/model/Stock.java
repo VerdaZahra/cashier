@@ -4,7 +4,7 @@ public class Stock extends Model{
     private int id;
     private String kodeBarang;
     private int stokBarang;
-
+//stock
     public int getId() {
         return id;
     }
