@@ -95,4 +95,9 @@ public class BarangService {
         barangList.add(barang);
         writeFile();
     }
+
+    public List<Barang> findByName(String laptop_gaming) {
+        readFile();
+        return barangList;
+    }
 }
